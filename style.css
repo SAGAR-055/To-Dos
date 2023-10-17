@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.main input{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: left;
+    width: 80%;
+}
+
+.main button{
+    background-color: rgb(221, 73, 73);
+    padding: 8px;
+    border-radius: 5px;
+
+
+}
