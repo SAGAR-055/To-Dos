@@ -1,40 +1,46 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #002244;
+    background-color: #BEFFF7;
 }
 
 h1{
     text-align: center;
     font-size: 50px;
+    color: #6499E9;
 }
 
 .main{
     width: 60%;
     height: auto;
-    background-color: aquamarine;
+    background-color: #9EDDFF;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 15px;
+  box-shadow: rgba(32, 1, 1, 0.35) 0px 5px 15px;
+
 }
 
 .main input{
-    background-color: aqua;
+    background-color: #6499E9;
     border-radius: 5px;
     padding: 8px;
     text-align: left;
     width: 80%;
     font-size: 20px;
     font-weight: 900;
-
+    
+                       
 }
 
 .main button{
-    background-color: rgb(221, 73, 73);
+    background-color: #6499E9;
+    
     padding: 8px;
     border-radius: 5px;
     font-weight: 900;
     width: 15%;
     font-size: 20px;
+    
 
 }
 .main ul{
@@ -48,7 +54,7 @@ h1{
 
 li{
     margin: 0;
-    background-color: aqua;
+    background-color: #6499E9;
     margin: 5px;
     padding: 20px;
   border-radius: 10px;
