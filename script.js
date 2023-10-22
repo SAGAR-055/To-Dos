@@ -12,12 +12,12 @@ const Todos = ref(database , "TOdoList")
 const addbtn= document.getElementById("add-btn")
 const ipt = document.getElementById("inputel")
 const addtask = document.getElementById("tasks")
-
+const donetasks = document.getElementById("Completed-list")
 
  
 addbtn.addEventListener("click", function(){
    let InputValue = ipt.value
-    push(Todos,InputValue) 
+   push(Todos,InputValue) 
    
    clearInput()
 })
@@ -56,13 +56,21 @@ function appendItemsToTodos(items){
     let newEl = document.createElement("li")
     newEl.textContent = itemValues
     
+    
     newEl.addEventListener("dblclick", function(){
-     let exactloactionoflist  = ref(database, `TOdoList/${itemID}`)
-
-     remove(exactloactionoflist)
+     let exactloactionofList  = ref(database, `TOdoList/${itemID}`)
+     remove(exactloactionofList)
+      
+     const completedItem = document.createElement("li");
+     completedItem.textContent = itemValues;
+     donetasks.appendChild(completedItem);
+      
 
     })
 
 
     addtask.append(newEl)
+    
 }
+
+

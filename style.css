@@ -51,7 +51,7 @@ h1{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -40px;
+    margin-left: -53px;
 }
 
 li{
@@ -63,6 +63,8 @@ li{
    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
 
 
 @media screen  and (max-width : 800px){
@@ -82,4 +84,6 @@ li{
 .main button{
     width: 75px;
 }
+
+
 }
